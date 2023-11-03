@@ -1,0 +1,364 @@
+* {
+    transition: all 0.3s ease-out;
+  }
+
+header {
+    background-color: #16161a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+main {
+    background-color: #16161a;
+    width: 2000px;
+    height: 1200px;
+
+}
+footer {
+    padding: 20px;
+    color: white;
+    font-size: 32px;
+    background-color: #16161a;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    position: absolute;
+    width: 1143px;
+    height: 63px;
+    top: 76px;
+    left: 109px;
+}
+
+nav ul {
+    display: flex;
+    width: 466px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 48px;
+    position: absolute;
+    top: 5px;
+    left: 650px;
+    list-style-type: none;
+}
+
+nav li  {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "JetBrains Mono-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #e7dcdc;
+}
+
+nav li:hover {
+    font-weight: bold;
+}
+
+nav img {
+    width: 88px;
+    height: 63px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+main .hero {
+    position: absolute;
+    width: 1677px;
+    height: 803px;
+    top: 168px;
+    left: 109px;
+}
+
+main .overlap {
+    position: relative;
+    width: 1681px;
+    height: 803px;
+}
+
+main .aside {
+    position: absolute;
+    width: 771px;
+    height: 431px;
+    top: 23px;
+    left: 910px;
+}
+
+main .overlap-group {
+    position: relative;
+    width: 767px;
+    height: 431px;
+    left: 910px;
+    top: 23px;
+    background-color: #aaaab3;
+    border-radius: 15px;
+    .go-corner {
+        opacity: 0.7;
+      }
+    
+      &:hover {
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -4px;
+        border: 1px solid #cccccc;
+        background-color: white;
+      }
+    
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: #00838d;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        transform: scale(2);
+        transform-origin: 50% 50%;
+        transition: transform 0.15s ease-out;
+      }
+    
+      &:hover:before {
+        transform: scale(2.15);
+      }
+    }
+
+
+
+
+main .arrow {
+    top: 20px;
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    left: 716px;
+}
+
+main .overlap-2 {
+    position: absolute;
+    width: 556px;
+    height: 332px;
+    top: 17px;
+    left: 34px;
+
+}
+
+main .img {
+    width: 414px;
+    height: 325px;
+    top: 7px;
+    left: 142px;
+    position: absolute;
+    object-fit: cover;
+}
+
+main .DISCOVER-OUR-GALLERY {
+    position: absolute;
+    width: 168px;
+    top: 0;
+    left: 0;
+    font-family: "JetBrains Mono-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+main .text-wrapper-2 {
+    position: absolute;
+    width: 489px;
+    top: 363px;
+    left: 34px;
+    font-family: "JetBrains Mono-Medium", Helvetica;
+    font-weight: 500;
+    color: #16161a;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+main .overlap-wrapper {
+    position: absolute;
+    width: 767px;
+    height: 333px;
+    top: 470px;
+    left: 910px;
+    
+}
+
+main .overlap-3 {
+    position: relative;
+    width: 765px;
+    height: 333px;
+    background-color: #e7dcdc;
+    border-radius: 15px;
+    &:hover {
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -4px;
+        border: 1px solid #cccccc;
+        background-color: white;
+      }
+    
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: #00838d;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        transform: scale(2);
+        transform-origin: 50% 50%;
+        transition: transform 0.15s ease-out;
+      }
+    
+      &:hover:before {
+        transform: scale(2.15);
+      }
+}
+
+main .overlap-group-2 {
+    position: absolute;
+    width: 612px;
+    height: 309px;
+    top: 5px;
+    left: 34px;
+    
+}
+
+main .text-wrapper-3 {
+    position: absolute;
+    width: 244px;
+    top: 256px;
+    left: 0;
+    font-family: "JetBrains Mono-Medium", Helvetica;
+    font-weight: 500;
+    color: #16161a;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+main .image-2 {
+    width: 391px;
+    height: 309px;
+    top: 0;
+    left: 221px;
+    position: absolute;
+    object-fit: cover;
+}
+
+main .arrow-2 {
+    top: 14px;
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    left: 716px;
+}
+
+main .overlap-group-wrapper {
+    position: absolute;
+    width: 971px;
+    height: 803px;
+    top: 0;
+    left: 0;
+    
+}
+
+main .overlap-4 {
+    position: relative;
+    width: 969px;
+    height: 803px;
+    
+}
+
+main .rectangle {
+    position: absolute;
+    width: 883px;
+    height: 780px;
+    top: 23px;
+    left: 0;
+    background-color: #e8efe6;
+    border-radius: 15px;
+    &:hover {
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -4px;
+        border: 1px solid #cccccc;
+        background-color: white;
+      }
+    
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: #feffff;
+        height: 883px;
+        width: 780px;
+        border-radius: 32px;
+        transform: scale(2);
+        transform-origin: 50% 50%;
+        transition: transform 0.15s ease-out;
+      }
+    
+      &:hover:before {
+        transform: scale(2.15);
+      }
+    
+    
+}
+
+main .image-3 {
+    width: 507px;
+    height: 784px;
+    top: 0;
+    left: 462px;
+    position: absolute;
+    object-fit: cover;
+}
+
+main .discover-my-film {
+    position: absolute;
+    width: 538px;
+    top: 223px;
+    left: 73px;
+    font-family: "JetBrains Mono-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+#content {
+    display: flex;
+    z-index: 1;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;  
+}
