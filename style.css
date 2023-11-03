@@ -364,3 +364,17 @@ main .discover-my-film {
     padding: 20px;
     margin-top: 20px;  
 }
+
+@media screen and (max-width: 1366px) {
+    body {
+        transform: scale(0.7); /* Adjust the value as needed (e.g., 0.8 for 80% zoom) */
+        transform-origin: top left; /* Keep content anchored to the top-left corner */
+      }
+
+     footer {
+        font-size: 24px; 
+        width: 2000px;
+        
+     }
+    
+}
